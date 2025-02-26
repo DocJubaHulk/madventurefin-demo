@@ -1,0 +1,26 @@
+/* NotificationItem.css */
+
+.notification-item-container {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.notification-item-container:hover {
+    background-color: #e6e6e6;
+}
+
+.notification-item-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.notification-item-message {
+    font-size: 14px;
+    color: #555;
+    margin-left: 10px;
+}
